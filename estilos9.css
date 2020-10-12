@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    background-image: url(./paisaje.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: wheat;
+    margin-top: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+
+}
+
+h2 {
+    font-size: 35px;
+    width: fit-content;
+    color: orange;
+    text-transform: uppercase;
+}
+
+.buscarC {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    border-radius: 30px;
+}
+
+input {
+    margin-left: 10px;
+    width: 85%;
+    height: 30px;
+    border-radius: 30px;
+    border: 0;
+}
+
+.lupa {
+    fill: currentColor;
+    border: 0px;
+    margin-left: 20px;
+}
+
+input:focus {
+    outline: 0;
+    border: 0;
+}
+
+#menu {
+    margin-bottom: 15px;
+}
+
+#log {
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-left: 170px;
+}
